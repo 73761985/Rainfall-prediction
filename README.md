@@ -49,6 +49,7 @@ Prediction Refinement:
 Evaluation on Training Set: 
 • The accuracy of the final predictions was evaluated using the area under the ROC curve (AUC) and the optimal threshold. 
 • The ROC curve was plotted to visualize the trade-off between true positive rate and false positive rate. 
+# Implementing Stacking Model
 Base Model Training:
 Two base models, Support Vector Classifier (SVC) and Logistic Regression (LR), are trained independently on the provided training data. Each model learns patterns and relationships within the data using its respective algorithm.
 
